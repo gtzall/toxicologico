@@ -1,0 +1,147 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Premium Organic Palette */
+  --background: oklch(0.98 0.01 240);
+  --foreground: oklch(0.15 0.02 240);
+  
+  --card: oklch(0.98 0.01 240);
+  --card-foreground: oklch(0.15 0.02 240);
+  
+  --popover: oklch(0.98 0.01 240);
+  --popover-foreground: oklch(0.15 0.02 240);
+  
+  --primary: oklch(0.15 0.02 240);
+  --primary-foreground: oklch(0.98 0.01 240);
+  
+  --secondary: oklch(0.95 0.01 240);
+  --secondary-foreground: oklch(0.15 0.02 240);
+  
+  --muted: oklch(0.92 0.01 240);
+  --muted-foreground: oklch(0.45 0.01 240);
+  
+  --accent: oklch(0.95 0.01 240);
+  --accent-foreground: oklch(0.15 0.02 240);
+  
+  --destructive: oklch(0.55 0.22 25);
+  --destructive-foreground: oklch(0.98 0.01 240);
+  
+  --border: oklch(0.90 0.01 240);
+  --input: oklch(0.90 0.01 240);
+  --ring: oklch(0.15 0.02 240);
+  
+  --radius: 0rem;
+}
+
+.dark {
+  --background: oklch(0.10 0.01 240);
+  --foreground: oklch(0.95 0.01 240);
+  --card: oklch(0.10 0.01 240);
+  --card-foreground: oklch(0.95 0.01 240);
+  --popover: oklch(0.10 0.01 240);
+  --popover-foreground: oklch(0.95 0.01 240);
+  --primary: oklch(0.95 0.01 240);
+  --primary-foreground: oklch(0.10 0.01 240);
+  --secondary: oklch(0.15 0.01 240);
+  --secondary-foreground: oklch(0.95 0.01 240);
+  --muted: oklch(0.20 0.01 240);
+  --muted-foreground: oklch(0.60 0.01 240);
+  --accent: oklch(0.15 0.01 240);
+  --accent-foreground: oklch(0.95 0.01 240);
+  --destructive: oklch(0.45 0.22 25);
+  --destructive-foreground: oklch(0.95 0.01 240);
+  --border: oklch(0.20 0.01 240);
+  --input: oklch(0.20 0.01 240);
+  --ring: oklch(0.85 0.01 240);
+}
+
+@theme inline {
+  /* Added Playfair Display back as serif font */
+  --font-sans: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+  --font-serif: 'Playfair Display', 'Georgia', serif;
+  
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02";
+  }
+  
+  /* Applied serif font to headings for the "calligraphy" style */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-medium tracking-tight;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--muted-foreground);
+  border-radius: 3px;
+  opacity: 0.5;
+}
+
+/* Adicionando animações para elementos */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+/* Imagens escuras que clareiam no hover */
+.image-dark img {
+  @apply brightness-[0.45] md:brightness-[0.55] transition-all duration-500 ease-out;
+}
+
+.image-dark:hover img {
+  @apply brightness-100;
+}
