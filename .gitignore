@@ -1,9 +1,2 @@
 node_modules
 .next
-.vercel
-out
-dist
-*.log
-.env
-.env.*
-pnpm-lock.yaml
