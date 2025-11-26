@@ -9,7 +9,7 @@ export default function Contact() {
         <div className="mb-16 max-w-3xl">
           <span className="text-xs font-medium tracking-widest text-muted-foreground uppercase">Contato</span>
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mt-4 mb-4">
-            Fale com a GuaruToxic
+            Fale com a GuaruToxi
           </h2>
           <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
             Tire dúvidas, agende seu exame toxicológico ou solicite informações sobre laudos corporativos.
@@ -25,9 +25,9 @@ export default function Contact() {
             <div className="space-y-3 text-sm">
               <Link
                 href="https://wa.me/5511949379725"
-                className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-foreground text-foreground text-xs uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors duration-300"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-foreground text-foreground text-xs uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors duração-300"
               >
-                WhatsApp GuaruToxic
+                WhatsApp GuaruToxi
               </Link>
               <p className="text-muted-foreground">
                 Telefone: <span className="font-medium text-foreground">(11) 94937-9725</span>
@@ -87,7 +87,7 @@ export default function Contact() {
             </p>
             <div className="rounded-none border border-foreground/10 overflow-hidden h-64 bg-secondary/40">
               <iframe
-                title="Mapa GuaruToxic"
+                title="Mapa GuaruToxi"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.260779935223!2d-46.473!3d-23.558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzI4LjAiUyA0NsKwMjgnMjMuMCJX!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
                 className="w-full h-full border-0"
                 loading="lazy"

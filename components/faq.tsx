@@ -39,6 +39,10 @@ const faqs = [
   {
     question: "O que acontece se o resultado for positivo?",
     answer: "Se o resultado for positivo, o motorista fica impedido de renovar a CNH por 3 meses e pode sofrer penalidades administrativas. É garantido o direito à contraprova caso o doador discorde do resultado."
+  },
+  {
+    question: "Quais as consequências de não renovar/realizar o exame toxicológico no prazo?",
+    answer: "Pelo art. 165-B do CTB: Após 30 dias do vencimento do exame periódico, se conduzir veículo que exija categoria C, D ou E, incorre em infração gravíssima, com multa de R$ 1.467,35 e suspensão do direito de dirigir por 3 meses. Em caso de reincidência em 12 meses, a multa é aplicada em dobro (R$ 2.934,70). Na RENOVAÇÃO da CNH, condutor com EAR que não tiver feito o periódico também é multado nos mesmos valores e sofre suspensão (parágrafo único do art. 165-B). Não há computação de pontos quando a penalidade já prevê suspensão (Res. Contran 723/18, § 3º). Observação: a infração do caput não se aplica quando conduz veículos das categorias A ou B."
   }
 ]
 

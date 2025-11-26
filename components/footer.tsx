@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-24">
           <div className="md:col-span-2">
             <Link href="/" className="text-3xl font-bold tracking-tighter block mb-8">
-              GuaruToxic
+              GuaruToxi
             </Link>
             <p className="text-muted-foreground max-w-sm leading-relaxed">
               Excelência em diagnósticos toxicológicos. 
@@ -44,7 +44,7 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-end pt-12 border-t border-foreground/5">
           <p className="text-[10px] uppercase tracking-widest text-muted-foreground">
-            © 2025 GuaruToxic. Todos os direitos reservados.
+            © 2025 GuaruToxi. Todos os direitos reservados.
           </p>
           <div className="flex gap-6 mt-4 md:mt-0">
              <Link href="#" className="text-[10px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors">

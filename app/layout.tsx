@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-serif' })
 
 export const metadata: Metadata = {
-  title: 'GuaruToxic | Exames Toxicológicos Premium em Guarulhos',
+  title: 'GuaruToxi | Exames Toxicológicos Premium em Guarulhos',
   description: 'Excelência e precisão em exames toxicológicos para CNH, CLT e Concursos Públicos em Guarulhos.',
     generator: 'v0.app'
 }

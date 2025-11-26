@@ -28,7 +28,7 @@ export default function LocationMap() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Localização GuaruToxic"
+              title="Localização GuaruToxi"
             />
           </div>
 
@@ -43,7 +43,7 @@ export default function LocationMap() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div>
-                  <p className="font-semibold text-lg">GuaruToxic - Exames Toxicológicos</p>
+                  <p className="font-semibold text-lg">GuaruToxi - Exames Toxicológicos</p>
                   <p className="text-muted-foreground">
                     Avenida Santos Dumont, 246A
                     <br />

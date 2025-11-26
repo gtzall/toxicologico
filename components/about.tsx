@@ -4,7 +4,7 @@ export default function About() {
       <div className="container mx-auto px-6 md:px-12">
         <div className="max-w-5xl mx-auto">
           <div className="mb-16">
-            <span className="text-xs font-medium tracking-widest text-muted-foreground uppercase">Sobre a GuaruToxic</span>
+            <span className="text-xs font-medium tracking-widest text-muted-foreground uppercase">Sobre a GuaruToxi</span>
             <h2 className="text-4xl md:text-6xl font-bold tracking-tight mt-6 mb-12">
               Análise Abrangente e Certificada
             </h2>
@@ -29,7 +29,7 @@ export default function About() {
               <div>
                 <h3 className="text-2xl font-bold mb-4">Janela de Detecção</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Cabelo indica consumo em até 90 dias; urina, uso recente em poucos dias. Você recebe um laudo claro, objetivo e fácil de apresentar aos órgãos competentes.
+                  Cabelo ou pelos indicam consumo em até 90 dias. Você recebe um laudo claro, objetivo e fácil de apresentar aos órgãos competentes.
                 </p>
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function About() {
                 <ul className="space-y-3 text-muted-foreground">
                   <li className="flex items-start gap-3">
                     <span className="text-foreground font-bold mt-1">01</span>
-                    <span>Coleta de material biológico (cabelo, pelo ou urina) por profissional capacitado</span>
+                    <span>Coleta de material biológico (cabelo ou pelos) por profissional capacitado</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-foreground font-bold mt-1">02</span>

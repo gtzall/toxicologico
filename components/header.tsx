@@ -27,7 +27,7 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
         )}
       >
         <Link href="/" className="text-xl md:text-2xl font-serif tracking-tight z-50 relative">
-          GuaruToxic
+          GuaruToxi
         </Link>
 
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium tracking-wide">

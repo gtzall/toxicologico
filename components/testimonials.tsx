@@ -22,7 +22,7 @@ const testimonials = [
     name: 'João Pereira',
     role: 'Candidato Concurso Público',
     content:
-      'Precisava do exame para concurso e estava com prazo apertado. A GuaruToxic foi super eficiente, resultado em 8 dias e laudo lacrado. Perfeito!',
+      'Precisava do exame para concurso e estava com prazo apertado. A GuaruToxi foi super eficiente, resultado em 8 dias e laudo lacrado. Perfeito!',
     rating: 5,
   },
   {
